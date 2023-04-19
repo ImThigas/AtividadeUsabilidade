@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Andale Mono, monospace;
+}
+body{
+    background: #292c35;
+}
+#centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+img {
+    max-width:35%;
+    height:auto;
+    margin-top:20px;
+    margin-bottom:5px;
+    cursor:pointer;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+.lista {
+    list-style-type: disc;
+}
+h2{
+    color:white;
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+#centro1{
+    display:flex;
+    justify-content: center;
+}
+.coluna-33 {
+    width: 20%;
+ }
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.reddefaultbutton{
+    background-color: white;
+    color: rgb(255, 0, 0);
+    padding: 5px 8px;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
+    margin-top: 5px;
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+.reddefaultbutton:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+h4{
+    font-size: 23px;
+}
+#massa{
+    color: rgb(201, 76, 76)
+}
+#massa1{
+    color: rgb(223, 155, 155);
+}
+#cobertura{
+    color: #8b4513;
+}
+#cobertura1{
+    color: #b87333;
+}
+.listadecimal {
+    list-style-type: decimal;
+    font-size:23px;
+}
