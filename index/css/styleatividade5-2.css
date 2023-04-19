@@ -1,14 +1,14 @@
 #centro{
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     margin-right: 70px;
+    margin-bottom:10px;
 }
 body{
     background: #292c35;
 }
 label{
-    display:block;
     color:white;
     font-size:20px;
     font-family: Andale Mono, monospace;
@@ -33,7 +33,4 @@ label{
     background-color: violet;
     color: white;
     border: 1px solid rgb(255, 255, 255);
-}
-.classe{
-    margin:20px;
 }
