@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #292c35;
+}
+.defaultbutton{
+    background-color: white;
+    color: rgb(75,71,71);
+    padding: 5px 8px;
+    border: 1px solid rgb(75,71,71);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
+    margin-top: 5px;
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+.defaultbutton:hover{
+    background-color: rgb(75,71,71);
+    color: white;
+    
+}
+.tomatodefaultbutton{
+    background-color: white;
+    color: tomato;
+    padding: 5px 8px;
+    border: 1px solid tomato;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
+    margin-top: 5px;
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+.tomatodefaultbutton:hover{
+    background-color: tomato;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+#centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+.bluedefaultbutton{
+    background-color: white;
+    color: blue;
+    padding: 5px 8px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
+    margin-top: 5px;
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+    font-size: 20px;    
+}
+.bluedefaultbutton:hover{
+    background-color: blue;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+.violetdefaultbutton{
+    background-color: white;
+    color: violet;
+    padding: 5px 8px;
+    border: 1px solid violet;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
+    margin-top: 5px;
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+    font-size: 20px;    
+}
+.violetdefaultbutton:hover{
+    background-color: violet;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+.crimsondefaultbutton{
+    background-color: white;
+    color: crimson;
+    padding: 5px 8px;
+    border: 1px solid crimson;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
+    margin-top: 5px;
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+    font-size: 20px;    
+}
+.crimsondefaultbutton:hover{
+    background-color: crimson;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+.reddefaultbutton{
+    background-color: white;
+    color: rgb(255, 0, 0);
+    padding: 5px 8px;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
+    margin-top: 5px;
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+.reddefaultbutton:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+.bluedefaultbutton{
+    background-color: white;
+    color: blue;
+    padding: 5px 8px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
+    margin-top: 5px;
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+    font-size: 20px;    
+}
+.bluedefaultbutton:hover{
+    background-color: blue;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+.purpledefaultbutton{
+    background-color: white;
+    color: purple;
+    padding: 5px 8px;
+    border: 1px solid purple;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
+    margin-top: 5px;
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+    font-size: 20px;    
+}
+.purpledefaultbutton:hover{
+    background-color: purple;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+.greendefaultbutton{
+    background-color: white;
+    color: green;
+    padding: 5px 8px;
+    border: 1px solid green;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
+    margin-top: 5px;
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+    font-size: 20px;    
+}
+.greendefaultbutton:hover{
+    background-color: green;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+.orangedefaultbutton{
+    background-color: white;
+    color: orangered;
+    padding: 5px 8px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
+    margin-top: 5px;
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+    font-size: 20px;    
+}
+.orangedefaultbutton:hover{
+    background-color: orangered;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+.blackdefaultbutton{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 5px 8px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
+    margin-top: 5px;
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+    font-size: 20px;    
+}
+.blackdefaultbutton:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
