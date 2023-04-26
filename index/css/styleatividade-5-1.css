@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #292c35;
+}
+#centro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+h1{
+    font-size: 60px;
+    color: white;
+    cursor: pointer;
+}
+h2{
+    font-size: 30px;
+    cursor: pointer;
+}
+#h1{
+ color: inherit; 
+}
+a:link {
+    color: yellow;
+ }
+a:visited {
+    color: gold;
+}
+a:hover {
+    color: black;
+}
+img {
+        max-width:30%;
+        height:auto;
+        margin-top:20px;
+        margin-bottom:35px;
+        cursor: pointer;
+}
+a{
+    text-decoration: none;
+}

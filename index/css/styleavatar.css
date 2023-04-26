@@ -1,0 +1,139 @@
+   *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+.telefone{
+    padding-top:5px;
+    padding-right: 50px;
+}
+.whatsapp{
+    padding-top:5px;
+    padding-right: 50px;
+}
+.facebook{
+    padding-top:5px;
+    padding-right: 50px;
+}
+.nome{
+    font-weight: bold;
+}
+.rodape{
+    padding-left:35px;
+    padding-top:30px;
+}
+header{
+    background-color: orangered;
+    min-height:50px;
+    text-align: center;
+}
+header > h1{
+    color:white;
+    font-size:50px;
+}
+footer{
+    background-color:orangered;
+    width: 100%;
+    height: 100px;
+    min-height:130px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-family: Andale Mono, monospace;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+main, body{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+img{
+    width:122px;
+    height:162px;
+}
+.filme{
+    font-family:Arial;
+    text-align:center;
+    color:white;
+    opacity:0;
+    transition: opacity .2s linear;
+    background-color:rgba(0, 0, 0, 0.7);
+
+}
+.imagem:hover .filme{
+    opacity:1;
+   }
+.imagem{
+    height:162px;
+    width:122px;
+    background-size:100% auto;
+    cursor:pointer;
+  }
+#imagem1{
+    background-image: url(img/filme01.jpg);  
+}
+#imagem2{
+    background-image: url(img/filme02.jpg);  
+}
+.sep{
+    padding-top: 20px;
+    padding-left:15px;
+}
+.orangedefaultbutton{
+    background-color: white;
+    color: orangered;
+    padding: 5px 8px;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all .3s ease;
+    margin-top: 5px;
+    font-family: Andale Mono, monospace;
+    font-weight: bold;
+    font-size: 15px;    
+}
+.orangedefaultbutton:hover{
+    background-color: orangered;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+.pad{
+    padding-left:5px;
+    padding-top:5px;
+}
+h1{
+    color:white;
+    font-size: 35px;
+}
+.h1{
+    text-align: center;
+    font-family: Andale Mono, monospace;
+}
+h2{
+    padding-top:15px;
+    color:white;
+    font-size:28px;
+}
+h3{
+    color:white;
+    padding-left:300px;
+    padding-right:300px;
+}
+table{
+    color: white;
+    border-collapse: collapse;
+    border-color: rgb(255, 255, 255);
+}
+.preco {
+    justify-content: space-evenly;
+}
